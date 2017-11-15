@@ -33,7 +33,7 @@ _VERSION = '1.4.0'
 
 REQUIRED_PACKAGES = [
     'absl-py',
-    'enum34 >= 1.1.6',
+    'enum34 >= 1.1.6 ; python_version < "3.4"',
     'numpy >= 1.12.1',
     'six >= 1.10.0',
     'protobuf >= 3.4.0',
